@@ -14,7 +14,7 @@ let UserContext = ({ children }) => {
     textSpeak.volume = 1;
     textSpeak.rate = 1;
     textSpeak.pitch = 1;
-    textSpeak.lang = "hi-GB";
+    textSpeak.lang = "en-GB";
     window.speechSynthesis.speak(textSpeak);
 
     textSpeak.onend = () => {
