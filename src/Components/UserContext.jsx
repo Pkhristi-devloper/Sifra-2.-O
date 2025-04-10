@@ -45,7 +45,12 @@ let UserContext = ({ children }) => {
       window.open("https://leetcode.com/problemset/", "_blank");
       speak("Opening Leetcode - A Coding Platform");
       setPrompt("Opening Leetcode - A Coding Platform");
-    } else if (msg.includes("music") && msg.includes("open")) {
+    } else if (msg.includes("code") && msg.includes("open")) {
+      window.open("https://leetcode.com/problemset/", "_blank");
+      speak("Opening Leetcode - A Coding Platform");
+      setPrompt("Opening Leetcode - A Coding Platform");
+    }
+     else if (msg.includes("music") && msg.includes("open")) {
       window.open("https://music.youtube.com/", "_blank");
       speak("Opening Youtube Music");
       setPrompt("Opening Youtube Music");
